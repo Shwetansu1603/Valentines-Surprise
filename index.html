@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>For Shittu ♡</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div id="menu-screen" class="screen active">
+      <h1 class="main-title">Happy Valentines Day Pyarumon! ♡</h1>
+      <p class="subtitle">Complete the steps to unlock your surprise!</p>
+      
+      <div class="menu-grid">
+        <button id="btn-memories" class="menu-btn unlocked" onclick="showSection('memories')">
+          <div class="status-icon"></div>
+          <span>Our Memories</span>
+        </button>
+        
+        <button id="btn-letter" class="menu-btn locked" disabled onclick="showSection('letter')">
+          <div class="status-icon"></div>
+          <span>Letter for My Love</span>
+        </button>
+        
+        <button id="btn-reasons" class="menu-btn locked" disabled onclick="showSection('reasons')">
+          <div class="status-icon"></div>
+          <span>Why I Love You</span>
+        </button>
+        
+        <button id="btn-proposal" class="menu-btn locked" disabled onclick="showSection('proposal')">
+          <div class="status-icon"></div>
+          <span>Proposal</span>
+        </button>
+        
+        <button id="btn-goodies" class="menu-btn locked" disabled onclick="showSection('goodies')">
+          <div class="status-icon"></div>
+          <span>Goodie Bag</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="memories" class="screen hidden-section">
+      <h2>Time Machine</h2>
+      <div class="gallery">
+        <img src="memories/1.jpg" alt="Memory 1">
+        <img src="memories/2.jpg" alt="Memory 2">
+        <img src="memories/3.jpg" alt="Memory 3">
+        <img src="memories/4.jpg" alt="Memory 4">
+        <img src="memories/5.jpg" alt="Memory 5">
+        <img src="memories/6.jpg" alt="Memory 6">
+        <img src="memories/7.jpg" alt="Memory 7">
+        <img src="memories/8.jpg" alt="Memory 8">
+        <img src="memories/9.jpg" alt="Memory 9">
+        <img src="memories/10.jpg" alt="Memory 10">
+        <img src="memories/11.jpg" alt="Memory 11">
+        <img src="memories/12.jpg" alt="Memory 12">
+        <img src="memories/13.jpg" alt="Memory 13">
+        <img src="memories/14.jpg" alt="Memory 14">
+        <img src="memories/15.jpg" alt="Memory 15">
+        <img src="memories/16.jpg" alt="Memory 16">
+      </div>
+       <button class="finish-btn" onclick="completeStage(1)">Done! Go Back ♡</button>
+    </div>
+
+    <div id="letter" class="screen hidden-section scrollable-screen">
+      <h2>Love Letter</h2>
+      <div class="paper">
+        <p>
+          Meri Pyaruu, <br><br>
+          Happy Valentines Day Pyaru , ham abhi tumhare pas toh nahi hai knees pe baith ke tumko propose karke puchne ke liye ki "Will you be my Valentine?" , but iska matlab ye nahi ki ham tumse pcuhenge nahi , not because mereko
+          doubt hai ki tum Haa bologi ya naa , but iss liye because ham har ek saal tumko remind karana chahte hai ki tumhara ye bhondu tumko har ek saal , utne he pyaar se aur utne he shiddat se request karega ki cutieee please mereko
+          apna life partner bane ka mauka do. And i promise buba , ki bohot ups and downs aa sakte hai but har ek saal aur har ek din i'll choose you over anything else. 
+          <br><br>
+          Aab dekho ye itna pyaar aaise he nahi hai , vo toh mereko pata hai ki galti se meri cutie pehle chasma nahi pehenti thi toh fas gayi . Aab toh ye gayi toh iss cutie ko toh apni valentine bane ke liye atleast 2-3 janam ka puneye 
+          lagega . Iss liye bas ye bhondu tumko kabhi loose nahi kar sakta . I love you , and i love you the most . 
+          <br><br>
+          Ham har ek saal koshish karenge ki kuch better kar paye khud ko tumhare liye , aur tumko vo har chiz de paye jo tum kabhi bhi life mei chahi ho , aur har ek khushi u ko de . Bas tum apna sath dena pyaru , hamesha ke liye and i promise
+          jab tum hamare baccho ko hamlog ki story sunaaogi toh uske baad tumhare face pe ek pyara sa smile hoga , regret nahi , ki mereko choose ki . I promise . I love you pyaruuuuu , I love you a lott <br><br>
+          Your Forever<br>Bubu.
+        </p>
+        </div>
+       <button class="finish-btn" onclick="completeStage(2)">Read it! Go Back ♡</button>
+    </div>
+
+    <div id="reasons" class="screen hidden-section scrollable-screen">
+      <h2>Why I Love You</h2>
+      <div class="reasons-list">
+         <div class="reason-card">1. BOOBIESSS</div>
+        <div class="reason-card">2. Jitne purity se hamesha tum mera care karti ho aur pyaar karti ho , kabhi koi nahi kar sakta . Hamesha mere liye cook karna , soote huai kissies dena , apne haath se khilana , merese complain karna mere he liye . I love you bohott zada .</div>
+        <div class="reason-card">3. Tumhara saara silly aur stupid harkatein . Ham endlessly tumko bas dekh sakte hai random kaam karte huai, kuch na kuch silly sa movement , happy dance , kuch na kuch tum hamesha kar he deti ho .·°՞(˃ ᗜ ˂)՞°·. . Bas Lifetime ham apna samne yahi view chahte hai kuch bhi aur nahi </div>
+        <div class="reason-card">4. BOOBIESSSSSSS</div>
+        <div class="reason-card">5. Jaise tum har ek chote se chote chiz mei mereko involve karti ho , kitchen mei tum sab kuch khud se cook karti ho lekin bas apne paas bulane ke liye ek baar fridge se kuch mangwa leti ho merese taki tumhare aas paas he rahe . Chote chote gestures ki i want you beside me . Ham hamesha isko secretly admire karte hai </div>  
+        <div class="reason-card">6. Vo saara chota chota physical touch , car mei gear pe apna haath rakhna , mall mei hamesha bolna ki mereko shoulder se pakro , randomly small kisses dena aur sab kuch Secretly toh jo tum mera arms pakadte he mereko guddgudi karne ka koshish karti ho vo bhi mereko bohot pasnad hai hehe (≧▽≦) (But kisi din heart attack se mare toh zimedaari tumhara) </div>
+        <div class="reason-card">7. I think i forgot to mention . BOOBIESSSS </div>
+            
+      </div>
+       <button class="finish-btn" onclick="completeStage(3)">Knowing this! Go Back ♡</button>
+    </div>
+
+    <div id="proposal" class="screen hidden-section proposal-screen">
+       <button class="back-to-menu-plain" onclick="showMenu()">← Back</button>
+      
+      <div id="envelope-container">
+        <img src="envelope.png" alt="Envelope" id="envelope" />
+        <p>Tap to Open</p>
+      </div>
+
+      <div id="letter-container">
+        <div class="letter-window">
+          <h1 id="letter-title">Will you be my Valentine?</h1>
+          <img src="cat_heart.gif" class="cat" id="letter-cat" />
+          
+          <div class="buttons" id="letter-buttons">
+            <img src="yes.png" class="btn yes-btn" alt="Yes" />
+            <div class="no-wrapper">
+              <img src="no.png" class="btn no-btn" alt="No" />
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+      <p id="final-text" class="final-text" style="display: none">
+            <button class="finish-btn small-btn" onclick="showMenu()">Unlock Goodie Bag! ♡</button>
+          </p>
+    </div>
+    
+    <div id="goodies" class="screen hidden-section scrollable-screen">
+      <button class="back-to-menu-plain" onclick="showMenu()">← Home</button>
+      <h2>Cutie's Goodie Bag</h2>
+      <p style="background: white; padding: 5px; border-radius: 5px;">Tap a card to scratch & reveal!</p>
+      
+      <div class="goodie-grid">
+        <div class="scratch-card" onclick="revealGift(this)"><div class="scratch-overlay">?</div><img src="goodies/1.jpg" class="hidden-img"></div>
+        <div class="scratch-card" onclick="revealGift(this)"><div class="scratch-overlay">?</div><img src="goodies/2.png" class="hidden-img"></div>
+        <div class="scratch-card" onclick="revealGift(this)"><div class="scratch-overlay">?</div><img src="goodies/3.png" class="hidden-img"></div>
+        <div class="scratch-card" onclick="revealGift(this)"><div class="scratch-overlay">?</div><img src="goodies/4.png" class="hidden-img"></div>
+        <div class="scratch-card" onclick="revealGift(this)"><div class="scratch-overlay">?</div><img src="goodies/5.png" class="hidden-img"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
